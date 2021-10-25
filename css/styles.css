@@ -1,11 +1,14 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #000000;
+}
+
+h2, h3, p {
+  margin: 0;
 }
 
 a {
-  color: inherit;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -26,6 +29,15 @@ body {
   max-width: 1210px;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 52px;
+  border-radius: 25px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
 }
 
 .header {
@@ -138,5 +150,96 @@ body {
   display: block;
   padding: 5px;
   border-radius: 50%;
+}
+
+.slide {
+  padding: 77px 0px 77px 101px;
+  border-radius: 20px;
+  background-color: grey;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 0 50px 0;
+}
+
+.slide__title {
+  max-width: 372px;
+  font-size: 50px;
+  line-height: 51px;
+  margin: 0 0 15px 0;
+}
+
+.slide__text {
+  max-width: 388px;
+  font-weight: normal;
+  line-height: 23px;
+  margin: 0 0 32px 0;
+}
+
+.slide__button {
+  background-color: #F66A15;
+  color: #ffffff;
+}
+
+.bg-summer {
+  background: -webkit-gradient(linear, left top, right top, color-stop(40.45%, rgba(0, 0, 0, 0.43)), to(rgba(0, 0, 0, 0))), url(../img/summer.png) no-repeat;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(../img/summer.png) no-repeat;
+  background-size: cover;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 110px 0;
+}
+
+.card {
+  width: 50%;
+  background-color: grey;
+  border-radius: 20px;
+  padding: 36px 0 31px 32px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.card__title {
+  font-size: 24px;
+  margin: 0 0 21px 0;
+}
+
+.card__text {
+  max-width: 168px;
+  margin: 0 0 72px 0;
+}
+
+.card__price {
+  font-size: 24px;
+  margin: 0 0 8px 0;
+}
+
+.card__delivery {
+  margin: 0 0 25px 0;
+}
+
+.card__button {
+  background: #ffffff;
+  color: #5F5F61;
+}
+
+.card + .card {
+  margin: 0 0 0 54px;
+}
+
+.card-first {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/bg_card1.png) no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg_card1.png) no-repeat;
+  background-size: cover;
+}
+
+.card-second {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/bg_card2.png) no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg_card2.png) no-repeat;
+  background-size: cover;
 }
 /*# sourceMappingURL=styles.css.map */
